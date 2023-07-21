@@ -1,0 +1,47 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mantine/core": "^6.0.14",
+    "@mantine/form": "^6.0.14",
+    "@mantine/hooks": "^6.0.14",
+    "@mantine/modals": "^6.0.14",
+    "@mui/material": "^5.14.1",
+    "@mui/x-data-grid": "^6.10.0",
+    "@tabler/icons-react": "^2.22.0",
+    "@tanstack/react-query": "^4.29.17",
+    "@tanstack/react-query-devtools": "^4.29.25",
+    "@types/lodash": "^4.14.195",
+    "dayjs": "^1.11.9",
+    "lodash": "^4.17.21",
+    "mantine-data-grid": "^0.2.3",
+    "react": "^18.2.0",
+    "react-data-grid": "^7.0.0-beta.34",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "react-table": "^7.8.0"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^4.29.9",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}
